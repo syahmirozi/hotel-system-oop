@@ -1,6 +1,8 @@
-package com.trivago.main;
+package com.trivago.main.Controller;
 
 import java.awt.EventQueue;
+
+import com.trivago.main.View.TrivagoGUI;
 
 public class WindowManager {
 
