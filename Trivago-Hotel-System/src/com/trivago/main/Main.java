@@ -9,6 +9,8 @@ public class Main {
 		WindowManager winMgr = new WindowManager();
 		
 		winMgr.Run();
+		
+		System.out.println("Hi");
 	}
 
 }
