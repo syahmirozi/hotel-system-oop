@@ -3,10 +3,9 @@ package com.trivago.main.Controller;
 import java.awt.EventQueue;
 
 import com.trivago.main.View.TrivagoGUI;
+import com.trivago.main.View.TrivagoHome;
 
 public class WindowManager {
-
-	private TrivagoGUI gui;
 	
 	public WindowManager() {
 		
@@ -18,8 +17,9 @@ public class WindowManager {
 		public void run() {
 			try {
 				TrivagoGUI window = new TrivagoGUI();
-				window.frame.setSize(1280, 720);
-				window.frame.setVisible(true);
+				window.frmHotelBookingSystem.setSize(1280, 720);
+				window.frmHotelBookingSystem.setVisible(true);
+				window.displayPanel = new TrivagoHome(window);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
